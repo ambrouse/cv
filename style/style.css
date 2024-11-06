@@ -1,0 +1,541 @@
+.main {
+  max-width: 1040px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  min-height: 1400px;
+  height: auto;
+  position: relative;
+}
+@media screen and (max-width: 700px) {
+  .main {
+    min-height: 1000px;
+  }
+}
+.main .main__infomation {
+  width: 30%;
+  background-color: rgb(34, 33, 33);
+  color: rgb(255, 255, 255);
+  padding-left: 5%;
+  line-height: 25px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation {
+    padding-left: 5px;
+    width: 40%;
+  }
+}
+.main .main__infomation .main__infomation--item {
+  width: 100%;
+}
+.main .main__infomation .main__infomation--item .item__logo {
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: solid 3px white;
+  border-radius: 100%;
+}
+.main .main__infomation .main__infomation--item .item__logo img {
+  width: 100%;
+  object-fit: cover;
+}
+.main .main__infomation .main__infomation--item .item__contact .item__contact--title {
+  position: relative;
+}
+.main .main__infomation .main__infomation--item .item__contact .item__contact--title p {
+  font-size: 20px;
+  padding: 5px 0px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__contact .item__contact--title p {
+    font-size: 15px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__contact .item__contact--title span {
+  position: absolute;
+  width: 90%;
+  height: 2px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(161, 149, 149);
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__contact .item__contact--title span {
+    height: 1px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__contact .item__contact--main {
+  padding: 30px 20px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__contact .item__contact--main {
+    padding: 10px 0px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__phone p {
+  padding: 5px 0px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__phone p {
+    font-size: 10px;
+    padding: 0px 0px 0px 10px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__email p {
+  padding: 5px 0px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__email p {
+    font-size: 10px;
+    padding: 0px 0px 0px 10px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__address p {
+  padding: 5px 0px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__address p {
+    font-size: 10px;
+    padding: 0px 0px 0px 10px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__skill .item__skill--title {
+  position: relative;
+}
+.main .main__infomation .main__infomation--item .item__skill .item__skill--title p {
+  font-size: 20px;
+  padding: 5px 0px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--title p {
+    font-size: 15px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__skill .item__skill--title span {
+  position: absolute;
+  width: 90%;
+  height: 2px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(161, 149, 149);
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--title span {
+    height: 1px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__skill .item__skill--main {
+  padding: 30px 20px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main {
+    padding: 10px 0px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--title p {
+  padding: 5px 0px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--title p {
+    font-size: 10px;
+    padding: 0px 0px 0px 10px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--main p {
+  padding: 5px 20px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--main p {
+    font-size: 10px;
+    padding: 0px 0px 0px 20px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--title p {
+  padding: 5px 0px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--title p {
+    font-size: 10px;
+    padding: 0px 0px 0px 10px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--main p {
+  padding: 5px 20px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--main p {
+    font-size: 10px;
+    padding: 0px 0px 0px 20px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--title p {
+  padding: 5px 0px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--title p {
+    font-size: 10px;
+    padding: 0px 0px 0px 10px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--main p {
+  padding: 5px 20px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--main p {
+    font-size: 10px;
+    padding: 0px 0px 0px 20px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__langguage .item__langguage--title {
+  position: relative;
+}
+.main .main__infomation .main__infomation--item .item__langguage .item__langguage--title p {
+  padding: 5px 0px;
+  font-size: 20px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__langguage .item__langguage--title p {
+    font-size: 15px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__langguage .item__langguage--title span {
+  position: absolute;
+  width: 90%;
+  height: 2px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(161, 149, 149);
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__langguage .item__langguage--title span {
+    height: 1px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__langguage .item__langguage--main {
+  padding: 30px 20px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main {
+    padding: 0px 0px 0px 0px;
+  }
+}
+.main .main__infomation .main__infomation--item .item__langguage .item__langguage--main p {
+  padding: 5px 0px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main p {
+    font-size: 10px;
+    padding: 0px 0px 0px 10px;
+  }
+}
+.main .main__deriptions {
+  width: 70%;
+  background-color: rgb(161, 149, 149);
+  padding: 0px 20px;
+  height: auto;
+  position: relative;
+}
+@media screen and (max-width: 700px) {
+  .main .main__deriptions {
+    width: 60%;
+    padding: 0px 0px 0px 5px;
+  }
+}
+.main .main__deriptions .main__deriptions--title {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+.main .main__deriptions .main__deriptions--title p {
+  padding: 40px 0px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__deriptions .main__deriptions--title p {
+    font-size: 20px;
+    padding: 50px 0px 20px 0px;
+  }
+}
+.main .main__deriptions .main__deriptions--location .location__title {
+  position: relative;
+}
+.main .main__deriptions .main__deriptions--location .location__title p {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0px;
+}
+.main .main__deriptions .main__deriptions--location .location__title p::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(34, 33, 33);
+  bottom: 15px;
+  left: 0px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__deriptions .main__deriptions--location .location__title p {
+    font-size: 15px;
+  }
+  .main .main__deriptions .main__deriptions--location .location__title p::after {
+    bottom: 15px;
+    height: 1px;
+  }
+}
+.main .main__deriptions .main__deriptions--location .location__item p {
+  font-size: 15px;
+  padding: 0px 0px 0px 10px;
+}
+.main .main__deriptions .main__deriptions--desription p:nth-child(1) {
+  font-size: 20px;
+  padding: 20px 0px;
+  font-weight: bold;
+  position: relative;
+}
+.main .main__deriptions .main__deriptions--desription p:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(34, 33, 33);
+  bottom: 15px;
+  left: 0px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__deriptions .main__deriptions--desription p:nth-child(1)::after {
+    bottom: 10px;
+    height: 1px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main .main__deriptions .main__deriptions--desription p:nth-child(1) {
+    font-size: 15px;
+    padding: 10px 0px;
+  }
+}
+.main .main__deriptions .main__deriptions--desription p:nth-child(2) {
+  font-size: 15px;
+  padding: 10px 20px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__deriptions .main__deriptions--desription p:nth-child(2) {
+    font-size: 10px;
+    padding: 0px 0px 0px 10px;
+  }
+}
+.main .main__deriptions .main__deriptions--exp .exp__title {
+  font-size: 20px;
+  position: relative;
+}
+.main .main__deriptions .main__deriptions--exp .exp__title p {
+  padding: 20px 0px;
+  font-weight: bold;
+}
+.main .main__deriptions .main__deriptions--exp .exp__title p::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(34, 33, 33);
+  bottom: 15px;
+  left: 0px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__deriptions .main__deriptions--exp .exp__title p::after {
+    bottom: 10px;
+    height: 1px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main .main__deriptions .main__deriptions--exp .exp__title p {
+    font-size: 15px;
+    padding: 10px 0px;
+  }
+}
+.main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__title {
+  position: relative;
+}
+.main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__title p {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__title p {
+    font-size: 10px;
+    padding: 5px 0px;
+  }
+}
+.main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px 30px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item {
+    padding: 0px 0px 0px 10px;
+  }
+}
+.main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__name {
+  width: 100%;
+}
+.main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__name span {
+  font-size: 15px;
+}
+.main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__name span:nth-child(1) {
+  font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+  .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__name span {
+    font-size: 10px;
+    padding: 0px 0px;
+  }
+}
+.main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__deription {
+  padding: 5px 20px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__deription {
+    padding: 0px 0px 0px 10px;
+  }
+}
+.main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__deription span {
+  font-size: 15px;
+  line-height: 1px;
+}
+.main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__deription span:nth-child(1) {
+  font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+  .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__deription span {
+    font-size: 10px;
+    padding: 0px 0px;
+  }
+}
+.main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__link p {
+  display: block;
+  padding: 5px 20px;
+  font-size: 10px;
+  color: rgb(73, 72, 72);
+  cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+  .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__link p {
+    font-size: 10px;
+    padding: 5px 0px 10px 10px;
+  }
+}
+.main .main__podup {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  max-width: 100%;
+  background-color: rgb(161, 149, 149);
+  display: none;
+}
+.main .main__podup .main__podup--btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+  .main .main__podup .main__podup--btn {
+    width: 20px;
+    height: 20px;
+  }
+}
+.main .main__podup .main__podup--btn span {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 3px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__podup .main__podup--btn span {
+    height: 2px;
+  }
+}
+.main .main__podup .main__podup--btn span:nth-child(1) {
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+  transform: rotate(45deg);
+}
+.main .main__podup .main__podup--btn span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+  transform: rotate(-45deg);
+  left: 0px;
+}
+.main .main__podup .main__podup--item {
+  position: sticky;
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  top: 100px;
+  background-color: rgb(161, 149, 149);
+  border: solid 2px rgb(34, 33, 33);
+  box-shadow: 1px 1px 3px 3px rgb(85, 85, 85);
+  padding-bottom: 100px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__podup .main__podup--item {
+    top: 50px;
+    padding-bottom: 20px;
+  }
+}
+.main .main__podup .main__podup--item .item__title p {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__podup .main__podup--item .item__title p {
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+}
+.main .main__podup .main__podup--item .item__deription .item__deription--main p {
+  font-size: 15px;
+  padding-left: 40px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__podup .main__podup--item .item__deription .item__deription--main p {
+    font-size: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+}
+.main .main__podup .main__podup--item .item__deription .item__deription--title p {
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+@media screen and (max-width: 700px) {
+  .main .main__podup .main__podup--item .item__deription .item__deription--title p {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
