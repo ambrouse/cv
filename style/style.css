@@ -29,15 +29,29 @@
   width: 100%;
 }
 .main .main__infomation .main__infomation--item .item__logo {
-  width: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200;
+  
+}
+
+.main .main__infomation .main__infomation--item .item__logo img {
+  width: 200px;
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
-  border: solid 3px white;
+  border: solid 3px rgb(48, 47, 47);
   border-radius: 100%;
 }
-.main .main__infomation .main__infomation--item .item__logo img {
-  width: 100%;
-  object-fit: cover;
+@media screen and (max-width: 700px) {
+  .main .main__infomation .main__infomation--item .item__logo img{
+    width: 100px;
+    height: 100px;
+  }
 }
 .main .main__infomation .main__infomation--item .item__contact .item__contact--title {
   position: relative;
@@ -277,7 +291,7 @@
   content: "";
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 3px;
   background-color: rgb(34, 33, 33);
   bottom: 15px;
   left: 0px;
@@ -293,6 +307,8 @@
 }
 .main .main__deriptions .main__deriptions--location .location__item p {
   font-size: 15px;
+  line-height: 30px;
+  font-weight: bold;
   padding: 0px 0px 0px 10px;
 }
 .main .main__deriptions .main__deriptions--desription p:nth-child(1) {
@@ -312,7 +328,7 @@
 }
 @media screen and (max-width: 700px) {
   .main .main__deriptions .main__deriptions--desription p:nth-child(1)::after {
-    bottom: 10px;
+    bottom: 5px;
     height: 1px;
   }
 }
@@ -325,9 +341,28 @@
 .main .main__deriptions .main__deriptions--desription p:nth-child(2) {
   font-size: 15px;
   padding: 10px 20px;
+  line-height: 20px;
+}
+.main .main__deriptions .main__deriptions--desription p:nth-child(3) {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 20px;
+}
+.main .main__deriptions .main__deriptions--desription p:nth-child(4) {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 20px;
 }
 @media screen and (max-width: 700px) {
   .main .main__deriptions .main__deriptions--desription p:nth-child(2) {
+    font-size: 10px;
+    padding: 0px 0px 0px 10px;
+  }
+  .main .main__deriptions .main__deriptions--desription p:nth-child(3) {
+    font-size: 10px;
+    padding: 0px 0px 0px 10px;
+  }
+  .main .main__deriptions .main__deriptions--desription p:nth-child(4) {
     font-size: 10px;
     padding: 0px 0px 0px 10px;
   }
@@ -351,7 +386,7 @@
 }
 @media screen and (max-width: 700px) {
   .main .main__deriptions .main__deriptions--exp .exp__title p::after {
-    bottom: 10px;
+    bottom: 5px;
     height: 1px;
   }
 }
@@ -360,6 +395,10 @@
     font-size: 15px;
     padding: 10px 0px;
   }
+}
+.main .main__deriptions .main__deriptions--exp .exp__main{
+  max-height: 500px;
+  overflow-y: scroll;
 }
 .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__title {
   position: relative;
@@ -411,7 +450,7 @@
 }
 .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__deription span {
   font-size: 15px;
-  line-height: 1px;
+  line-height: 20px;
 }
 .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__deription span:nth-child(1) {
   font-weight: bold;
@@ -443,6 +482,9 @@
   left: 0px;
   max-width: 100%;
   background-color: rgb(161, 149, 149);
+  z-index: -1;
+}
+.main .main__podup .main__podup--item{
   display: none;
 }
 .main .main__podup .main__podup--btn {
@@ -499,6 +541,9 @@
     padding-bottom: 20px;
   }
 }
+.main .main__podup .main__podup--item .item__title p{
+  text-align: center;
+}
 .main .main__podup .main__podup--item .item__title p {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -515,9 +560,21 @@
 .main .main__podup .main__podup--item .item__deription .item__deription--main p {
   font-size: 15px;
   padding-left: 40px;
+  line-height: 20px;
+}
+
+.main .main__podup .main__podup--item .item__deription .item__deription--main a {
+  font-size: 15px;
+  padding-left: 40px;
 }
 @media screen and (max-width: 700px) {
   .main .main__podup .main__podup--item .item__deription .item__deription--main p {
+    line-height: 20px;
+    font-size: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  .main .main__podup .main__podup--item .item__deription .item__deription--main a {
     font-size: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -528,12 +585,14 @@
   padding-top: 30px;
   padding-bottom: 5px;
   font-size: 15px;
+  line-height: 20px;
   padding-left: 20px;
 }
 @media screen and (max-width: 700px) {
   .main .main__podup .main__podup--item .item__deription .item__deription--title p {
     font-size: 15px;
     padding-top: 10px;
+    line-height: 20px;
     padding-left: 10px;
   }
 }
