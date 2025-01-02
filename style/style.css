@@ -524,7 +524,7 @@
   background-color: rgb(161, 149, 149);
   border: solid 2px rgb(34, 33, 33);
   box-shadow: 1px 1px 3px 3px rgb(85, 85, 85);
-  /* padding-bottom: 100px; */
+  padding-bottom: 100px;
 }
 @media screen and (max-width: 700px) {
   .main .main__podup .main__podup--item {
