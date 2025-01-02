@@ -17,7 +17,6 @@
   background-color: rgb(34, 33, 33);
   color: rgb(255, 255, 255);
   padding-left: 5%;
-  line-height: 25px;
 }
 @media screen and (max-width: 700px) {
   .main .main__infomation {
@@ -307,7 +306,6 @@
 }
 .main .main__deriptions .main__deriptions--location .location__item p {
   font-size: 15px;
-  line-height: 30px;
   font-weight: bold;
   padding: 0px 0px 0px 10px;
 }
@@ -341,16 +339,13 @@
 .main .main__deriptions .main__deriptions--desription p:nth-child(2) {
   font-size: 15px;
   padding: 10px 20px;
-  line-height: 20px;
 }
 .main .main__deriptions .main__deriptions--desription p:nth-child(3) {
   font-size: 15px;
-  line-height: 20px;
   padding: 10px 20px;
 }
 .main .main__deriptions .main__deriptions--desription p:nth-child(4) {
   font-size: 15px;
-  line-height: 20px;
   padding: 10px 20px;
 }
 @media screen and (max-width: 700px) {
@@ -450,7 +445,6 @@
 }
 .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__deription span {
   font-size: 15px;
-  line-height: 20px;
 }
 .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__deription span:nth-child(1) {
   font-weight: bold;
@@ -560,7 +554,6 @@
 .main .main__podup .main__podup--item .item__deription .item__deription--main p {
   font-size: 15px;
   padding-left: 40px;
-  line-height: 20px;
 }
 
 .main .main__podup .main__podup--item .item__deription .item__deription--main a {
@@ -569,7 +562,6 @@
 }
 @media screen and (max-width: 700px) {
   .main .main__podup .main__podup--item .item__deription .item__deription--main p {
-    line-height: 20px;
     font-size: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -585,14 +577,12 @@
   padding-top: 30px;
   padding-bottom: 5px;
   font-size: 15px;
-  line-height: 20px;
   padding-left: 20px;
 }
 @media screen and (max-width: 700px) {
   .main .main__podup .main__podup--item .item__deription .item__deription--title p {
     font-size: 15px;
     padding-top: 10px;
-    line-height: 20px;
     padding-left: 10px;
   }
 }
