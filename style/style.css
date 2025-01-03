@@ -1,11 +1,11 @@
 .main {
-  max-width: 1240px;
-  width: 1240px;
+  max-width: 794px;
+  width: 794px;
   width: 100%;
   display: flex;
   margin: 0 auto;
-  max-height: 1754px;
-  height: 1754px;
+  max-height: 1123px;
+  height: 1123px;
   position: relative;
 }
 @media screen and (max-width: 900px) {
@@ -240,7 +240,7 @@
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--title p {
   padding-top: 30px;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   padding-bottom: 5px;
   font-size: 18px;
 }
@@ -281,6 +281,9 @@
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(4) .main__game--title p {
     font-size: 12px;
     padding-top: 15px;
+  }
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--title p {
+    padding-top: 0px;
   }
   /* .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--title p {
     font-size: 12px;
@@ -350,7 +353,7 @@
   }
 }
 .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main p {
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 18px;
   line-height: 20px;
 }
