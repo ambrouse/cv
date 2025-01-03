@@ -1,10 +1,11 @@
 .main {
-  max-width: 1040px;
+  max-width: 1024px;
+  width: 1024px;
   width: 100%;
   display: flex;
   margin: 0 auto;
-  min-height: 1400px;
-  height: auto;
+  max-height: 1448px;
+  height: 1448px;
   position: relative;
 }
 @media screen and (max-width: 900px) {
