@@ -469,7 +469,7 @@
   }
 }
 .main .main__deriptions .main__deriptions--location .location__item p {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   line-height: 30px;
   padding: 0px 0px 0px 0px;
@@ -510,6 +510,9 @@
   }
   .main .main__deriptions .main__deriptions--location:nth-child(5) .location__item span {
     padding-bottom: 10px;
+  }
+  .main .main__deriptions .main__deriptions--location .location__item p {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 900px) {
