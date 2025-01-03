@@ -7,7 +7,7 @@
   height: auto;
   position: relative;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main {
     min-height: 1000px;
   }
@@ -18,7 +18,7 @@
   color: rgb(255, 255, 255);
   padding-left: 5%;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation {
     padding-left: 5px;
     width: 40%;
@@ -46,7 +46,7 @@
   border: solid 3px rgb(48, 47, 47);
   border-radius: 100%;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__logo img{
     width: 100px;
     height: 100px;
@@ -59,7 +59,7 @@
   font-size: 20px;
   padding: 5px 0px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--title p {
     font-size: 14px;
   }
@@ -72,7 +72,7 @@
   left: 0px;
   background-color: rgb(161, 149, 149);
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--title span {
     height: 1px;
   }
@@ -80,7 +80,7 @@
 .main .main__infomation .main__infomation--item .item__contact .item__contact--main {
   padding: 30px 20px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main {
     padding: 10px 0px;
   }
@@ -89,7 +89,7 @@
   padding: 5px 0px;
   font-size: 18px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__phone p {
     font-size: 10px;
     padding: 0px 0px 10px 10px;
@@ -99,7 +99,7 @@
   padding: 5px 0px;
   font-size: 18px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__email p {
     font-size: 10px;
     padding: 0px 0px 10px 10px;
@@ -109,7 +109,7 @@
   padding: 5px 0px;
   font-size: 18px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__address p {
     font-size: 10px;
     padding: 0px 0px 0px 10px;
@@ -122,7 +122,7 @@
   font-size: 20px;
   padding: 5px 0px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--title p {
     font-size: 14px;
   }
@@ -135,15 +135,16 @@
   left: 0px;
   background-color: rgb(161, 149, 149);
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--title span {
     height: 1px;
   }
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--main {
   padding: 30px 20px;
+  position: relative;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main {
     padding: 10px 0px;
   }
@@ -153,7 +154,7 @@
   padding-top: 20px;
   font-size: 18px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--title p {
     font-size: 12px;
     padding: 10px 0px 10px 10px;
@@ -163,18 +164,41 @@
   padding: 5px 20px;
   font-size: 15px;
 }
-@media screen and (max-width: 700px) {
-  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--main p {
-    font-size: 10px;
-    padding: 5px 0px 0px 20px;
+.main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--main span {
+  position: absolute;
+  width: 90%;
+  height: 10px;
+  left: 20px;
+  right: 20px;
+  background-color: rgb(161, 149, 149);
+  border: 2px solid rgb(80, 87, 91);;
+}
+.main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--main span::after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90%;
+  height: 8px;
+  background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 900px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--main span {
+    height: 3px;
+    top: 35px;
+    left: 10px;
+  }
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--main span::after {
+    height: 1px;
   }
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--title p {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 5px;
   font-size: 18px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--title p {
     font-size: 12px;
     padding: 10px 0px 10px 10px;
@@ -184,33 +208,112 @@
   padding: 5px 20px;
   font-size: 15px;
 }
-@media screen and (max-width: 700px) {
-  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--main p {
-    font-size: 10px;
-    padding: 5px 0px 0px 20px;
+.main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--main span {
+  position: absolute;
+  width: 90%;
+  height: 10px;
+  left: 20px;
+  right: 20px;
+  background-color: rgb(161, 149, 149);
+  border: 2px solid rgb(80, 87, 91);;
+}
+.main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--main span::after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80%;
+  height: 8px;
+  background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 900px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--main span {
+    height: 3px;
+    left: 10px;
+    top: 66px;
+  }
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--main span::after {
+    height: 1px;
   }
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--title p {
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-left: 10px;
   padding-bottom: 5px;
   font-size: 18px;
 }
-@media screen and (max-width: 700px) {
-  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--title p {
+.main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--main span {
+  position: absolute;
+  width: 90%;
+  height: 10px;
+  left: 20px;
+  right: 20px;
+  background-color: rgb(161, 149, 149);
+  border: 2px solid rgb(80, 87, 91);
+}
+.main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(3) .main__game--main span::after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60%;
+  height: 8px;
+  background-color: rgb(255, 255, 255);
+}
+.main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(4) .main__game--main span::after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90%;
+  height: 8px;
+  background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 900px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(3) .main__game--title p {
     font-size: 12px;
-    padding: 10px 0px 10px 10px;
+    padding-top: 10px;
+  }
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(4) .main__game--title p {
+    font-size: 12px;
+    padding-top: 15px;
+  }
+  /* .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--title p {
+    font-size: 12px;
+    padding-top: 10px;
+  } */
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(3) .main__game--main span {
+    height: 3px;
+    left: 10px;
+    top: 98px;
+  }
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(3) .main__game--main span::after {
+    height:1px;
+  }
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(4) .main__game--main span {
+    height: 3px;
+    left: 10px;
+    top: 130px;
+  }
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(4) .main__game--main span::after {
+    height:1px;
   }
 }
-.main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--main p {
+/* .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--main p {
   padding: 5px 20px;
   font-size: 15px;
-}
-@media screen and (max-width: 700px) {
-  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--main p {
-    font-size: 10px;
-    padding: 0px 0px 0px 20px;
+} */
+/* @media screen and (max-width: 900px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--main span {
+    height: 3px;
   }
-}
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--main span::after {
+    height: 1px;
+  }
+} */
 .main .main__infomation .main__infomation--item .item__langguage .item__langguage--title {
   position: relative;
 }
@@ -218,7 +321,7 @@
   padding: 5px 0px;
   font-size: 20px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__langguage .item__langguage--title p {
     font-size: 14px;
   }
@@ -231,28 +334,85 @@
   left: 0px;
   background-color: rgb(161, 149, 149);
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__langguage .item__langguage--title span {
     height: 1px;
   }
 }
 .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main {
   padding: 30px 20px;
+  position: relative;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main {
     padding: 0px 0px 0px 0px;
   }
 }
 .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main p {
-  padding: 5px 0px;
+  padding-top: 30px;
   font-size: 18px;
   line-height: 20px;
 }
-@media screen and (max-width: 700px) {
+.main .main__infomation .main__infomation--item .item__langguage .item__langguage--main p:nth-child(1) {
+  padding-top: 0px;
+}
+.main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span {
+  position: absolute;
+  width: 90%;
+  height: 10px;
+  left: 20px;
+  right: 20px;
+  background-color: rgb(161, 149, 149);
+  border: 2px solid rgb(80, 87, 91);;
+}
+.main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span::after {
+  content: "";
+  position: absolute;
+  width: 95%;
+  height: 8px;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(255, 255, 255);
+}
+.main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span:nth-child(2):after {
+  width: 80%;
+}
+.main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span:nth-child(6):after {
+  width: 80%;
+}
+.main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span:nth-child(8):after {
+  width: 90%;
+}
+.main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span:nth-child(10):after {
+  width: 60%;
+}
+@media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main p {
     font-size: 10px;
     padding: 0px 0px 0px 10px;
+  }
+  .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span {
+    height: 3px;
+    left: 10px;
+  }
+  .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span:nth-child(2) {
+    top: 15px;
+  }
+  .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span:nth-child(4) {
+    top: 35px;
+  }
+  .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span:nth-child(6) {
+    top: 55px;
+  }
+  .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span:nth-child(8) {
+    top: 75px;
+  }
+  .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span:nth-child(10) {
+    top: 95px;
+  }
+  .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span::after {
+    height: 1px;
   }
 }
 .main .main__deriptions {
@@ -262,7 +422,7 @@
   height: auto;
   position: relative;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__deriptions {
     width: 60%;
     padding: 0px 0px 0px 5px;
@@ -276,7 +436,7 @@
 .main .main__deriptions .main__deriptions--title p {
   padding: 40px 0px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__deriptions .main__deriptions--title p {
     font-size: 20px;
     padding: 30px 0px 20px 0px;
@@ -299,7 +459,7 @@
   bottom: 5px;
   left: 0px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__deriptions .main__deriptions--location .location__title p {
     font-size: 14px;
   }
@@ -312,7 +472,17 @@
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
-  padding: 0px 0px 0px 10px;
+  padding: 0px 0px 0px 0px;
+}
+.main .main__deriptions .main__deriptions--location .location__item span {
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 0px 0px 0px 20px;
+}
+.main .main__deriptions .main__deriptions--location:nth-child(5) .location__item span {
+  font-weight: lighter;
+  padding-bottom: 20px;
+  display: block;
 }
 .main .main__deriptions .main__deriptions--desription p:nth-child(1) {
   font-size: 20px;
@@ -329,13 +499,20 @@
   bottom: 5px;
   left: 0px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__deriptions .main__deriptions--desription .desription__title p:nth-child(1)::after {
     bottom: 5px;
     height: 1px;
   }
+  
+  .main .main__deriptions .main__deriptions--location .location__item span {
+    font-size: 12px;
+  }
+  .main .main__deriptions .main__deriptions--location:nth-child(5) .location__item span {
+    padding-bottom: 10px;
+  }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__deriptions .main__deriptions--desription .desription__title p:nth-child(1) {
     font-size: 14px;
     padding: 10px 0px;
@@ -345,12 +522,16 @@
   font-size: 18px;
   padding: 10px 20px;
   font-weight: lighter;
+  /* display: none; */
 }
-@media screen and (max-width: 700px) {
-  .main .main__deriptions .main__deriptions--desription .desription__item {
+/* .main .main__deriptions .main__deriptions--desription  .desription__item p:nth-child(1) {
+  display: none;
+} */
+@media screen and (max-width: 900px) {
+  /* .main .main__deriptions .main__deriptions--desription .desription__item {
       max-height: 100px;
       overflow-y: scroll;
-  }
+  } */
   .main .main__deriptions .main__deriptions--desription .desription__item p {
     font-size: 10px;
     padding: 5px 0px 0px 10px;
@@ -374,21 +555,17 @@
   bottom: 5px;
   left: 0px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__deriptions .main__deriptions--exp .exp__title p::after {
     bottom: 5px;
     height: 1px;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__deriptions .main__deriptions--exp .exp__title p {
     font-size: 14px;
     padding: 10px 0px;
   }
-}
-.main .main__deriptions .main__deriptions--exp .exp__main{
-  max-height: 500px;
-  overflow-y: scroll;
 }
 .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__title {
   position: relative;
@@ -398,7 +575,7 @@
   font-weight: bold;
   padding: 10px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__title p {
     font-size: 10px;
     padding: 5px 0px;
@@ -410,7 +587,7 @@
   flex-wrap: wrap;
   padding: 5px 30px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item {
     padding: 0px 0px 0px 10px;
   }
@@ -424,7 +601,7 @@
 .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__name span:nth-child(1) {
   font-weight: bold;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__name span {
     font-size: 10px;
     padding: 0px 0px;
@@ -433,7 +610,7 @@
 .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__deription {
   padding: 5px 20px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__deription {
     padding: 0px 0px 0px 10px;
   }
@@ -444,7 +621,7 @@
 .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__deription span:nth-child(1) {
   font-weight: bold;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__deription span {
     font-size: 10px;
     padding: 0px 0px;
@@ -457,7 +634,7 @@
   color: rgb(73, 72, 72);
   cursor: pointer;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__deriptions .main__deriptions--exp .exp__main .exp__main--item .item__main .item__main--item .item__link p {
     font-size: 10px;
     padding: 5px 0px 10px 10px;
@@ -484,7 +661,7 @@
   height: 30px;
   cursor: pointer;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__podup .main__podup--btn {
     width: 20px;
     height: 20px;
@@ -496,7 +673,7 @@
   width: 100%;
   height: 3px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__podup .main__podup--btn span {
     height: 2px;
   }
@@ -526,7 +703,7 @@
   box-shadow: 1px 1px 3px 3px rgb(85, 85, 85);
   padding-bottom: 100px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__podup .main__podup--item {
     top: 20px;
     padding-bottom: 20px;
@@ -542,7 +719,7 @@
   font-size: 20px;
   padding-left: 20px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__podup .main__podup--item .item__title p {
     font-size: 18px;
     padding-bottom: 10px;
@@ -558,7 +735,7 @@
   font-size: 18px;
   padding-left: 40px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__podup .main__podup--item .item__deription .item__deription--main p {
     font-size: 10px;
     padding-bottom: 10px;
@@ -577,7 +754,7 @@
   font-size: 18px;
   padding-left: 20px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .main .main__podup .main__podup--item .item__deription .item__deription--title p {
     font-size: 18px;
     padding-top: 10px;
