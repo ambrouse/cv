@@ -438,12 +438,23 @@
   text-align: center;
   font-weight: bold;
 }
+.main .main__deriptions .main__deriptions--title span{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
 .main .main__deriptions .main__deriptions--title p {
-  padding: 40px 0px;
+  padding-top: 40px;
+  padding-bottom: 0px;
 }
 @media screen and (max-width: 900px) {
   .main .main__deriptions .main__deriptions--title p {
     font-size: 20px;
+    padding: 30px 0px 0px 0px;
+  }
+  .main .main__deriptions .main__deriptions--title span {
+    font-size: 14px;
     padding: 30px 0px 20px 0px;
   }
 }
