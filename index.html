@@ -153,7 +153,7 @@
                                 <span>Website quản lý chung cư.</span>
                             </div>
                             <div class="item__link">
-                                <!-- <p  onclick=openPodup(1)>Bấm để xem chi tiết.</p> -->
+                                <p  onclick=openPodup(1)>Bấm để xem chi tiết.</p>
                             </div>
                         </div>
                     </div>
@@ -165,7 +165,7 @@
                                 <span>Website nhận diện thủ ngữ.</span>
                             </div>
                             <div class="item__link">
-                                <!-- <p  onclick=openPodup(2)>Bấm để xem chi tiết.</p> -->
+                                <p  onclick=openPodup(2)>Bấm để xem chi tiết.</p>
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
                                 <span>App mạng xã hội.</span>
                             </div>
                             <div class="item__link">
-                                <!-- <p  onclick=openPodup(3)>Bấm để xem chi tiết.</p> -->
+                                <p  onclick=openPodup(3)>Bấm để xem chi tiết.</p>
                             </div>
                         </div>
                     </div>
@@ -189,7 +189,20 @@
                                 <span>Áp dụng AI cho nhận diện té ngã đột quỵ.</span>
                             </div>
                             <div class="item__link">
-                                <!-- <p  onclick=openPodup(4)>Bấm để xem chi tiết.</p> -->
+                                <p  onclick=openPodup(4)>Bấm để xem chi tiết.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="exp__main--item">
+                    <div class="item__main">
+                        <div class="item__main--item">
+                            <div class="item__name">
+                                <span>Xây dựng hệ thống đề xuất phim</span>
+                            </div>
+                            <div class="item__link">
+                                <p  onclick=openPodup(5)>Bấm để xem chi tiết.</p>
                             </div>
                         </div>
                     </div>
@@ -365,7 +378,7 @@
             </div>
             <div class="main__podup--item">
                 <div class="item__title">
-                    <p>Áp Dụng AI Cho Nhận Diện Té Ngã Đột Quỵ</p>
+                    <p>App Mạng Xã Hội.</p>
                 </div>
                 <div class="item__deription">
                     <div class="item__deription--title">
@@ -481,11 +494,78 @@
                         <p>Chi tiết về dự án tại: </p>
                     </div>
                     <div class="item__deription--main">
-                        <a href="https://github.com/ambrouse/nhan_dien_te_nga_yolo_v8">Chuyển đến github .</a>
+                        <a href="https://github.com/ambrouse/nhan_dien_te_nga_yolo_v8">Chuyển đến github (dự án 1).</a>
+                        <a href="https://github.com/ambrouse/te_nga_dot_quy_yolov8_v2">Chuyển đến github (dự án 2).</a>
                     </div>
                 </div>
                 
-                <div class="main__podup--btn" onclick=closePodup(3)>
+                <div class="main__podup--btn" onclick=closePodup(4)>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="main__podup--item">
+                <div class="item__title">
+                    <p>Xây Dựng Mô Hình Đề Xuất Phim</p>
+                </div>
+                <div class="item__deription">
+                    <div class="item__deription--title">
+                        <p>Giới thiệu dự án :</p>
+                    </div>
+                    <div class="item__deription--main">
+                        <p>Dự án này xây dựng mô hình đề xuất phim dựa trên Collaborative Filtering (CF) kết hợp với Encoder Transformer. Mô hình sử dụng Transformer để mã hóa thông tin người dùng và phim, sau đó dự đoán mức độ phù hợp bằng Fully Connected Neural Network (FNN). Cách tiếp cận này giúp cá nhân hóa đề xuất phim, khắc phục hạn chế của CF truyền thống như cold start và sparsity, đồng thời nâng cao độ chính xác của hệ thống.</p>
+                    </div>
+                </div>
+                <div class="item__deription">
+                    <div class="item__deription--title">
+                        <p>ý tưởng :</p>
+                    </div>
+                    <div class="item__deription--main">
+                        <p>Dự án hướng đến việc xây dựng một mô hình đề xuất phim thông minh, giúp người dùng tìm kiếm nội dung phù hợp dựa trên sở thích và hành vi trước đó. Thay vì sử dụng các phương pháp Collaborative Filtering (CF) truyền thống như Matrix Factorization, dự án áp dụng Encoder Transformer để mã hóa thông tin người dùng và phim thành các vector biểu diễn ngữ nghĩa sâu hơn. Mô hình sẽ sử dụng Fully Connected Neural Network (FNN) để dự đoán mức độ phù hợp giữa người dùng và phim. Cách tiếp cận này giúp khắc phục các vấn đề của CF truyền thống như cold start (người dùng/phim mới) và sparsity (dữ liệu thưa thớt), đồng thời cải thiện khả năng cá nhân hóa đề xuất. Mục tiêu cuối cùng là tạo ra một hệ thống gợi ý phim chính xác, hiệu quả và linh hoạt hơn so với các phương pháp truyền thống.</p>
+                    </div>
+                </div>
+                <div class="item__deription">
+                    <div class="item__deription--title">
+                        <p>Mô hình, framework của dự án</p>
+                    </div>
+                    <div class="item__deription--main">
+                        <p>Collaborative Filtering (CF) với lõi chính là lớp encode của tranformer(đồng thời áp dụng mullti embeding biểu diễn mối quan hệ trong từng ngữ cảnh của dữ liệu)</p>
+                        <p>Ngôn ngữ Python</p>
+                        <p>Opencv</p>
+                        <p>Numpy</p>
+                        <p>Tensorflow</p>
+                        <p>Sklean</p>
+                        <p>Pandas</p>
+                    </div>
+                </div>
+                <div class="item__deription">
+                    <div class="item__deription--title">
+                        <p>Các thành viên của dự án</p>
+                    </div>
+                    <div class="item__deription--main">
+                        <p>Nguyễn Lê Quốc Bảo (bản thân)</p>
+                    </div>
+                </div>
+                <div class="item__deription">
+                    <div class="item__deription--title">
+                        <p>Vị trí trong nhóm</p>
+                    </div>
+                    <div class="item__deription--main">
+                        <p>Dev xây dựng, xử lý dữ liệu</p>
+                        <p>Dev huấn luyện, cài đặt mô hình</p>
+                        <p>Leader</p>
+                    </div>
+                </div>
+                <div class="item__deription">
+                    <div class="item__deription--title">
+                        <p>Chi tiết về dự án tại: </p>
+                    </div>
+                    <div class="item__deription--main">
+                        <a href="https://github.com/ambrouse/CF_based_encode_tranformer_de_xuat_phim">Chuyển đến github .</a>
+                    </div>
+                </div>
+                
+                <div class="main__podup--btn" onclick=closePodup(5)>
                     <span></span>
                     <span></span>
                 </div>
