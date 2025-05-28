@@ -1,3 +1,7 @@
+body{
+  background-color: black;
+}
+
 .main {
   max-width: 1024px;
   width: 1024px;
@@ -8,6 +12,7 @@
   height: 1440px;
   position: relative;
 }
+
 @media screen and (max-width: 900px) {
   .main {
     min-height: 1000px;
@@ -57,8 +62,13 @@
   position: relative;
 }
 .main .main__infomation .main__infomation--item .item__contact .item__contact--title p {
-  font-size: 20px;
+  font-size: 18px;
   padding: 5px 0px;
+}
+@media screen and (max-width: 1440px) {
+  .main .main__infomation .main__infomation--item .item__contact .item__contact--title p {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--title p {
@@ -79,40 +89,61 @@
   }
 }
 .main .main__infomation .main__infomation--item .item__contact .item__contact--main {
-  padding: 30px 20px;
+  padding: 10px 20px 20px 20px;
 }
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main {
-    padding: 10px 0px;
+    padding: 0px 0px 0px 10px 0px;
   }
 }
 .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__phone p {
   padding: 5px 0px;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 20px;
 }
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__phone p {
-    font-size: 10px;
+    font-size: 12px;
+    padding: 0px 0px 10px 10px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__phone p {
+    font-size: 14px;
     padding: 0px 0px 10px 10px;
   }
 }
 .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__email p {
+  line-height: 20px;
   padding: 5px 0px;
-  font-size: 18px;
+  font-size: 16px;
+}
+@media screen and (max-width: 1440px) {
+  .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__email p {
+    font-size: 14px;
+    padding: 0px 0px 10px 10px;
+  }
 }
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__email p {
-    font-size: 10px;
+    font-size: 12px;
     padding: 0px 0px 10px 10px;
   }
 }
 .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__address p {
   padding: 5px 0px;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 20px;
+}
+@media screen and (max-width: 1440px) {
+  .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__address p {
+    font-size: 14px;
+    padding: 0px 0px 0px 10px;
+  }
 }
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__address p {
-    font-size: 10px;
+    font-size: 12px;
     padding: 0px 0px 0px 10px;
   }
 }
@@ -120,12 +151,17 @@
   position: relative;
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--title p {
-  font-size: 20px;
+  font-size: 18px;
   padding: 5px 0px;
+}
+@media screen and (max-width: 1440px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--title p {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--title p {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--title span {
@@ -142,18 +178,32 @@
   }
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--main {
-  padding: 30px 20px;
+  padding: 20px 20px 30px 20px;
   position: relative;
+  margin-top: -30px;
+}
+@media screen and (max-width: 1440px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main {
+    padding: 20px 0px 20px 0px;
+    margin-top: -20px;
+  }
 }
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main {
+    margin-top: -10px;
     padding: 10px 0px;
   }
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--title p {
   padding-bottom: 5px;
   padding-top: 20px;
-  font-size: 18px;
+  font-size: 16px;
+}
+@media screen and (max-width: 1440px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--title p {
+    font-size: 14px;
+    padding: 10px 0px 10px 10px;
+  }
 }
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--title p {
@@ -163,7 +213,7 @@
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--main p {
   padding: 5px 20px;
-  font-size: 15px;
+  font-size: 14px;
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--main span {
   position: absolute;
@@ -172,7 +222,7 @@
   left: 20px;
   right: 20px;
   background-color: rgb(161, 149, 149);
-  border: 2px solid rgb(80, 87, 91);;
+  border: 2px solid rgb(80, 87, 91);
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--main span::after {
   position: absolute;
@@ -321,6 +371,7 @@
 } */
 .main .main__infomation .main__infomation--item .item__langguage .item__langguage--title {
   position: relative;
+  margin-top: 10px;
 }
 .main .main__infomation .main__infomation--item .item__langguage .item__langguage--title p {
   padding: 5px 0px;
@@ -347,10 +398,12 @@
 .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main {
   padding: 30px 20px;
   position: relative;
+  margin-top: -20px;
 }
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main {
     padding: 0px 0px 0px 0px;
+    margin-top: -0px;
   }
 }
 .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main p {
@@ -489,7 +542,7 @@
   font-size: 16px;
   font-weight: bold;
   line-height: 30px;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 5px 0px;
 }
 .main .main__deriptions .main__deriptions--location .location__item span {
   font-size: 16px;
