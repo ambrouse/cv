@@ -89,7 +89,7 @@ body{
   }
 }
 .main .main__infomation .main__infomation--item .item__contact .item__contact--main {
-  padding: 10px 20px 20px 20px;
+  padding: 10px 20px 20px 0px;
 }
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main {
@@ -104,13 +104,13 @@ body{
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__phone p {
     font-size: 12px;
-    padding: 0px 0px 10px 10px;
+    padding: 0px 0px 10px 0px;
   }
 }
 @media screen and (max-width: 1440px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__phone p {
     font-size: 14px;
-    padding: 0px 0px 10px 10px;
+    padding: 0px 0px 10px 0px;
   }
 }
 .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__email p {
@@ -121,13 +121,13 @@ body{
 @media screen and (max-width: 1440px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__email p {
     font-size: 14px;
-    padding: 0px 0px 10px 10px;
+    padding: 0px 0px 10px 0px;
   }
 }
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__email p {
     font-size: 12px;
-    padding: 0px 0px 10px 10px;
+    padding: 0px 0px 10px 0px;
   }
 }
 .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__address p {
@@ -138,13 +138,13 @@ body{
 @media screen and (max-width: 1440px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__address p {
     font-size: 14px;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
   }
 }
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__contact .item__contact--main .main__address p {
     font-size: 12px;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
   }
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--title {
@@ -156,12 +156,12 @@ body{
 }
 @media screen and (max-width: 1440px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--title p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--title p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--title span {
@@ -178,7 +178,7 @@ body{
   }
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--main {
-  padding: 20px 20px 30px 20px;
+  padding: 20px 20px 30px 0px;
   position: relative;
   margin-top: -30px;
 }
@@ -202,13 +202,13 @@ body{
 @media screen and (max-width: 1440px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--title p {
     font-size: 14px;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 0px;
   }
 }
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--title p {
     font-size: 12px;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 0px;
   }
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--main p {
@@ -219,8 +219,6 @@ body{
   position: absolute;
   width: 90%;
   height: 10px;
-  left: 20px;
-  right: 20px;
   background-color: rgb(161, 149, 149);
   border: 2px solid rgb(80, 87, 91);
 }
@@ -238,7 +236,6 @@ body{
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--main span {
     height: 3px;
     top: 35px;
-    left: 10px;
   }
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__web .main__web--main span::after {
     height: 1px;
@@ -249,10 +246,15 @@ body{
   padding-bottom: 5px;
   font-size: 18px;
 }
+@media screen and (max-width: 1440px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--title p {
+    font-size: 14px;  
+  }
+}
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--title p {
     font-size: 12px;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 0px;
   }
 }
 .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--main p {
@@ -263,8 +265,6 @@ body{
   position: absolute;
   width: 90%;
   height: 10px;
-  left: 20px;
-  right: 20px;
   background-color: rgb(161, 149, 149);
   border: 2px solid rgb(80, 87, 91);;
 }
@@ -281,7 +281,7 @@ body{
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--main span {
     height: 3px;
-    left: 10px;
+    left: 0px;
     top: 66px;
   }
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__ai .main__ai--main span::after {
@@ -298,8 +298,6 @@ body{
   position: absolute;
   width: 90%;
   height: 10px;
-  left: 20px;
-  right: 20px;
   background-color: rgb(161, 149, 149);
   border: 2px solid rgb(80, 87, 91);
 }
@@ -323,6 +321,17 @@ body{
   height: 8px;
   background-color: rgb(255, 255, 255);
 }
+@media screen and (max-width: 1440px) {
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(3) .main__game--title p {
+    font-size: 14px;
+  }
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(4) .main__game--title p {
+    font-size: 14px;
+  }
+  .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--title p {
+    padding-left: 0px;
+  }
+}
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(3) .main__game--title p {
     font-size: 12px;
@@ -334,7 +343,6 @@ body{
   }
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--title p {
     padding-top: 0px;
-    padding-left: 10px;
   }
   /* .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game .main__game--title p {
     font-size: 12px;
@@ -342,7 +350,7 @@ body{
   } */
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(3) .main__game--main span {
     height: 3px;
-    left: 10px;
+    left: 0px;
     top: 98px;
   }
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(3) .main__game--main span::after {
@@ -350,7 +358,7 @@ body{
   }
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(4) .main__game--main span {
     height: 3px;
-    left: 10px;
+    left: 0px;
     top: 130px;
   }
   .main .main__infomation .main__infomation--item .item__skill .item__skill--main .main__game:nth-child(4) .main__game--main span::after {
@@ -396,7 +404,7 @@ body{
   }
 }
 .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main {
-  padding: 30px 20px;
+  padding: 30px 0px;
   position: relative;
   margin-top: -20px;
 }
@@ -418,8 +426,6 @@ body{
   position: absolute;
   width: 90%;
   height: 10px;
-  left: 20px;
-  right: 20px;
   background-color: rgb(161, 149, 149);
   border: 2px solid rgb(80, 87, 91);;
 }
@@ -445,14 +451,19 @@ body{
 .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span:nth-child(10):after {
   width: 60%;
 }
+@media screen and (max-width: 1440px) {
+  .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main p {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 900px) {
   .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main p {
-    font-size: 10px;
-    padding: 0px 0px 0px 10px;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
   }
   .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span {
     height: 3px;
-    left: 10px;
+    left: 0px;
   }
   .main .main__infomation .main__infomation--item .item__langguage .item__langguage--main span:nth-child(2) {
     top: 15px;
