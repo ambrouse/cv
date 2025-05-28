@@ -543,23 +543,12 @@ body{
   font-weight: bold;
   line-height: 30px;
   padding: 0px 0px 5px 0px;
+  line-height: 20px;
 }
 .main .main__deriptions .main__deriptions--location .location__item span {
   font-size: 16px;
   font-weight: lighter;
-  padding: 0px 0px 0px 20px;
-}
-@media screen and (max-width: 900px) {
-  .main .main__deriptions .main__deriptions--location .location__item p {
-    line-height: 10px;
-  }
-  
-}
-@media screen and (max-width: 900px) {
-  .main .main__deriptions .main__deriptions--location .location__item p {
-    line-height: 10px;
-  }
-  
+  padding: 0px 0px 0px 10px;
 }
 .main .main__deriptions .main__deriptions--location:nth-child(6) .location__item span {
   font-weight: lighter;
@@ -837,34 +826,35 @@ body{
 .main .main__podup .main__podup--item .item__title p {
   padding-top: 50px;
   padding-bottom: 20px;
-  font-size: 20px;
+  font-size: 18px;
   padding-left: 20px;
+  font-weight: bold;
 }
 @media screen and (max-width: 900px) {
   .main .main__podup .main__podup--item .item__title p {
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 10px;
     padding-left: 10px;
   }
 }
 .main .main__podup .main__podup--item .item__deription .item__deription--main p {
-  font-size: 18px;
+  font-size: 14px;
   padding-left: 40px;
 }
 
 .main .main__podup .main__podup--item .item__deription .item__deription--main a {
-  font-size: 18px;
+  font-size: 14px;
   padding-left: 40px;
 }
 @media screen and (max-width: 900px) {
   .main .main__podup .main__podup--item .item__deription .item__deription--main p {
-    font-size: 10px;
+    font-size: 12px;
     padding-bottom: 10px;
     padding-left: 20px;
   }
   .main .main__podup .main__podup--item .item__deription .item__deription--main a {
-    font-size: 10px;
-    padding-bottom: 10px;
+    font-size: 12px;
+    padding-bottom: 12px;
     padding-left: 20px;
   }
 }
@@ -872,12 +862,12 @@ body{
   font-weight: bold;
   padding-top: 30px;
   padding-bottom: 5px;
-  font-size: 18px;
+  font-size: 16px;
   padding-left: 20px;
 }
 @media screen and (max-width: 900px) {
   .main .main__podup .main__podup--item .item__deription .item__deription--title p {
-    font-size: 18px;
+    font-size: 14px;
     padding-top: 10px;
     padding-left: 10px;
   }
